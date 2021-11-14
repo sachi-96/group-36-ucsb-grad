@@ -1,6 +1,6 @@
 ---
-title: "group_36_ucsb_grad"
-author: "Sachi Shiroma"
+title: "Group 36 UCSB domestic grad enrollment"
+author: "Sachi Shiroma, Shayan Kaveh"
 date: "11/14/2021"
 output: html_document
 ---
