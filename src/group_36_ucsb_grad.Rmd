@@ -15,7 +15,6 @@ library(here)
 ucsb_grad <- read_csv(here("data", "ucsb_grad_data.csv"))
 ```
 
-Shayan (Partner 1):
 Column graph of change in domestic graduate enrollment from 2008 to 2019
 ```{r}
 ggplot(data = ucsb_grad, 
@@ -26,7 +25,8 @@ ggplot(data = ucsb_grad,
        title = "Domestic Graduate Enrollment by Year and Ethnicity", 
        caption = "Figure 1. Domestic graduate enrollment by ethnicity (shown by color) at UCSB \n from 2008 to 2019. Majority of students were white during all years.",
        fill = "Ethnicity") +
-  theme(plot.title = element_text(hjust = 0.5))
+  theme(plot.title = element_text(hjust = 0.5)) +
+  theme_minimal()
   
 ```
 
